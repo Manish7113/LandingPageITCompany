@@ -15,9 +15,12 @@ export default function Feature() {
                             left: -50,
                             right: 50,
                             bottom: 50,
-                        }} className="fs-xxl primary roboto-medium p-0 m-0 ls-50 txt-center" >All in one market software report </motion.p>
-                    <p className="p-0 m-0  primary">Digital Agency offering unique solution to create digital presence and increase your sales to create digital presence and increase your sales</p>
-                    <p className="p-0 m-0  primary">Digital Agency offering unique solution to create digital presence and increase your sales</p>
+                        }} className="fs-xxl primary roboto-medium p-0 m-0 ls-50 txt-center" >Simplify Marketing, Amplify Results. </motion.p>
+                    <p className="p-0 m-0  primary">Grow your brand & sales online. We craft powerful digital experiences. Unleash your online potential. We build websites that convert</p>
+                    <p className="p-0 m-0  primary">From invisibility to influence. We build websites that get results. Dominate your digital space. We fuel brand growth & sales.
+
+pen_spark
+</p>
                     <motion.button
                         initial={{ opacity: 0, scale: 0.5 }}
                         whileInView={{ opacity: 1, scale: 1 }}

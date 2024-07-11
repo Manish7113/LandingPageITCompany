@@ -8,7 +8,7 @@ export default function Footer() {
             <div className="row">
                 <div className="col-12 col-xl-3 col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex flex-column mb-5">
                     <p className="roboto-bold fs-xl ">Codaddy</p>
-                    <p className="roboto-regular gray fs-sm">Building a next generation collobaration platform to connect renters owners homeoweners and agents </p>
+                    <p className="roboto-regular gray fs-sm">Your brand deserves more than a cookie-cutter solution. We tailor websites to your unique goals</p>
                     <div className="d-flex flex-row align-items-center gap-3">
                         <div className="footerIconContainer d-flex justify-content-center align-items-center ">
                             <Icon icon="ei:sc-facebook" className="footerIcon" />

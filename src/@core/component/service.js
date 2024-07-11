@@ -25,7 +25,7 @@ export default function Service(){
             <div className="container d-flex flex-column justify-content-center gap-5">
             <div className="white d-flex justify-content-between align-items-center flex-wrap gap-5">
                 <h3 className="heading-right roboto-bold fs-xl txt-center ">Provide Quality Services.</h3>
-                <p className="description-left fs-sm ls-20 txt-center">Digital Agency offering unique solution to create digital presence and increase your sales</p>
+                <p className="description-left fs-sm ls-20 txt-center">Level up your digital game. Our innovative solutions amplify your online presence & sales</p>
 
 
             </div>

@@ -1,4 +1,6 @@
+'use client'
 import ServiceCard from "../subComponent/serviceCard";
+import { motion } from "framer-motion"
 
 export default function Service(){
     const serviceCard = [
@@ -24,7 +26,7 @@ export default function Service(){
         <section className="primary-bg white pt-5">
             <div className="container d-flex flex-column justify-content-center gap-5">
             <div className="white d-flex justify-content-between align-items-center flex-wrap gap-5">
-                <h3 className="heading-right roboto-bold fs-xl txt-center ">Provide Quality Services.</h3>
+                <motion.h3   initial={{ opacity: 0.2, y:100 }}  whileInView={{ opacity: 1, y:0,}}  transition={{ duration: .4 }}  className="heading-right roboto-bold fs-xl txt-center ">Provide Quality Services.</motion.h3>
                 <p className="description-left fs-sm ls-20 txt-center">Level up your digital game. Our innovative solutions amplify your online presence & sales</p>
 
 

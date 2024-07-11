@@ -19,8 +19,8 @@ export default function Feature() {
                     <p className="p-0 m-0  primary">Grow your brand & sales online. We craft powerful digital experiences. Unleash your online potential. We build websites that convert</p>
                     <p className="p-0 m-0  primary">From invisibility to influence. We build websites that get results. Dominate your digital space. We fuel brand growth & sales.
 
-pen_spark
-</p>
+                        pen_spark
+                    </p>
                     <motion.button
                         initial={{ opacity: 0, scale: 0.5 }}
                         whileInView={{ opacity: 1, scale: 1 }}

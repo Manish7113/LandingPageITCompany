@@ -16,8 +16,6 @@ export default function Home() {
     <Speciality></Speciality>
     <Contact></Contact>
     <Footer></Footer>
-   
- 
     </>
     
   );

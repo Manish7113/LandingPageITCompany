@@ -1,11 +1,25 @@
 import ServiceCard from "../subComponent/serviceCard";
 
 export default function Service(){
-    // const serviceCard = [
-    //     {
-    //         icon
-    //     }
-    // ]
+    const serviceCard = [
+        {
+            icon : 'fe:app-menu',
+            heading :'App Developement',
+            description :'Get your app for upto 5 lacs user and get playstore access for the entire updatation'
+        },
+        {
+           
+            icon : 'streamline:web-solid',
+            heading :'Web Developement',
+            description :'Get your app for upto 5 lacs user and get playstore access for the entire updatation'
+        },
+        {
+            icon : 'la:uikit',
+            heading :'UI/UX Developement',
+            description :'Get your app for upto 5 lacs user and get playstore access for the entire updatation'
+        }
+        
+    ]
     return (
         <section className="primary-bg white pt-5">
             <div className="container d-flex flex-column justify-content-center gap-5">
@@ -15,10 +29,15 @@ export default function Service(){
 
 
             </div>
-            <div className="d-flex flex-wrap justify-content-between align-items-center gap-3 mb-5">
-                <ServiceCard></ServiceCard>
-                <ServiceCard></ServiceCard>
-                <ServiceCard></ServiceCard>
+            <div className="d-flex flex-wrap justify-content-around align-items-center gap-3 mb-5">
+                {
+                    serviceCard?.map((item, index)=>{
+                        return(
+                            <ServiceCard key={index} data={{item}}></ServiceCard>
+                        )
+                    })
+                }
+                
 
             </div>
 

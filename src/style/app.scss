@@ -241,6 +241,7 @@ body {
 }
 
 
+
 /// footer 
 
 .footerIconContainer{
@@ -256,6 +257,7 @@ body {
 }
 .footerIconContainer:hover{
     background-color: var(--orange);
+    transform: scale(1.2);
 }
 
 .scale-1{

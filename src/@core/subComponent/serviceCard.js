@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react";
 
 export default function ServiceCard({data}){
 
-    console.log(data , '---------------------')
+    
     return(
         <div className="serviceCard d-flex flex-column justify-content-start align-items-start p-3 pt-4 pb-4 gap-2">
             <Icon icon={data?.item?.icon} className="service-card-icon"/>

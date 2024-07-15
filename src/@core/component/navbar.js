@@ -21,7 +21,7 @@ export default function Header() {
                         <div className='innerCircle'>
 
                         </div>
-                    </div> <p className='roboto-bold fs-xl p-0 m-0'>CoDaddy</p></div>
+                    </div> <p className='roboto-bold fs-xl p-0 m-0'>CodeMama</p></div>
                 <div className='d-flex justify-content-end'>
                     <Icon icon="ci:menu-alt-02" className='fs-xxl align-self-end cursorPointer'  onClick={()=>{
                         setShowSideBar(true)

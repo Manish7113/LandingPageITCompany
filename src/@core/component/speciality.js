@@ -30,7 +30,7 @@ export default function Speciality(){
         <section className="primary-bg white pt-5 speciality">
             <div className="container d-flex flex-column justify-content-center gap-5">
             <div className="white d-flex justify-content-center flex-column align-items-center">
-                <h3 className="roboto-bold fs-xxl txt-center">Hello, we are canddy creative </h3>
+                <h3 className="roboto-bold fs-xxl txt-center">Hello, we are CodeMama creative </h3>
                 <p className=" secondary txt-center container fs-sm ls-20">We're passionate about harnessing the power of technology to empower businesses and individuals
                
                 </p>

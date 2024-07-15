@@ -226,6 +226,13 @@ body {
         width: 500px;
         height: auto;
         z-index: 1000;
+        transition: all .5s ease;
+        transform: translate(0px, -100px) ;
+        cursor: pointer;
+    }
+    .image:hover{
+        transform: scale(1.2);
+
     }
 
    
